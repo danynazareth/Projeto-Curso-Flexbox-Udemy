@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://use.fontawesome.com/3e42e2aa91.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>WhatsApp Web Clone</title>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="toolbar-container">
+                <img class="user-photo" src="img/avatar1.png" alt="" >
+                <div class="auxicons-toolbar-container">
+                    <i class="fa fa-spinner"></i>
+                    <i class="fa fa-comment-o"></i>
+                    <i class="fa fa-ellipsis-v"></i>
+
+                </div>
+            </div>
+                <div class="notification-container">
+                    <i class="fa fa-bell-slash-o"></i>
+                    <p class="receive-notification">Lorem ipsum dolor sit amet c</p>
+                    <p class="active-notification">Lorem ipsum dolor si
+                        <i class="fa fa-angle-right"></i>
+                    </p>
+
+                </div>
+                <div class="search-container">
+                    <i id="contact-search" class="fa fa-search"></i>
+                    <input type="text" name="search" id="search" placeholder="Procurar oucomeçar uma Nova conversa">
+                </div>
+                <div class="contacts-container">
+                    <div class="contact-box active-chat">
+                        <img class="user-photo" src="img/avatar4.png" alt="">
+                        <div class="user-info">
+                            <p class="user-name">Sabrina</p>
+                            <p class="user-messagepreview">
+                                <i class="fa fa-angle-double-right"></i> 
+                                Projeto Perfeito</p>
+                        </div>
+                        <div class="message-info">
+                            <p class="message-time">22:40</p>
+                            
+                        </div>
+                    </div>
+                    <div class="contact-box  ">
+                        <img class="user-photo" src="img/avatar2.png" alt="">
+                        <div class="user-info">
+                            <p class="user-name">Ana</p>
+                            <p class="user-messagepreview">
+                               
+                                Ad, fugit.
+                            </p>
+                        </div>
+                        <div class="message-info">
+                            <p class="message-time">22:40</p>
+                            <p class="message-pending">5</p>
+                        </div>
+                    </div>
+                    <div class="contact-box ">
+                        <img class="user-photo" src="img/avatar3.png" alt="">
+                        <div class="user-info">
+                            <p class="user-name">João A.</p>
+                            <p class="user-messagepreview">Ad, fugit.</p>
+                        </div>
+                        <div class="message-info">
+                            <p class="message-time">22:40</p>
+                            <p class="message-pending">3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main class="chat-container">
+            <nav class="chat-navbar">
+                <div class="contactinfo-container">
+                    <img src="img/avatar2.png" alt="" class="user-photo">
+                    <p class="user-name">Sabrina</p>
+                </div>
+                <ul class="chattools-container">
+                    <li><i class="fa fa-search"></i></li>
+                    <li><i class="fa fa-paperclip"></i></li>
+                    <li><i class="fa fa-ellipsis-v"></i></li>
+                </ul>
+            </nav>
+            <div class="messages-container">
+                <div class="bg-image"></div>
+                <div class="chat-messages">
+                    <p class="guest-message">Lorem, ipsum dolor.</p>
+                    <p class="user-message">Lorem, ipsum dolor color.</p>
+                </div>
+            </div>
+            <div class="sendmessage-container">
+                <i class="fa fa-smile-o"></i>
+                <input id="chatmessage" type="text" name="message" class="userinput" placeholder="digite uma mensagem">
+                <i class="fa fa-microphone"></i>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
